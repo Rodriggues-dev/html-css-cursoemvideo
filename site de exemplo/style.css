@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+background-image: linear-gradient( to right, #0FC2C0, #015958);
+font-family: "Playfair Display";
+}
+main{
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15px black;
+   width: 600px;
+   padding: 10px;
+   margin: auto;
+}
+
+#Titulo1{
+color: #023535;
+text-align: center;
+text-shadow: 1px 1px 2px #0a7574;
+}
+
+h2{
+    color: #015958;
+}
+
+#Titulo1:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+}

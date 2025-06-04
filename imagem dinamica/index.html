@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem dinamica</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img300.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img700.png" type="image/png">
+        <img src="img/img1000.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo áudio no HTML</h1>
+    <audio preload="metadata" controls autoplay loop>
+        <source src="music/musica-teste.mp3" type="audio/mpeg">
+        <source src="music/musica-teste.ogg" type="audio/ogg">
+        <source src="music/musica-teste.wav" type="audio/wav">
+    </audio>
+    <p>Caso o seu navegador não consegue reproduzir o áudio. <a href="music/musica-teste.mp3" target="_self">Clique para acessar ou abaixar o arquivo.</a></p>
+
+
+    <h1>Reproduzindo Video em HTML</h1>
+    <video preload="metadata" controls autoplay>
+        <source src="video/video-teste.mp4" type="video/mp4">
+        <source src="video/video-teste.m4v" type="video/m4v">
+        <source src="video/video-teste.ogv" type="video/ogv">
+        <source src="video/video-teste.webm" type="video/webm">
+    </video>
+
+    <h1>Reproduzindo video externo no HTML</h1>
+    
+</body>
+</html>
