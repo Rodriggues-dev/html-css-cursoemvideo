@@ -4,6 +4,7 @@
 
 body {
     background-color: #ffffff;
+    margin: auto;
 }
 
 header {
@@ -38,7 +39,7 @@ main{
 }
 
 footer{
-    background-color: #1C1C1C;
+    background-color: #000000;
     padding: 10px;
 }
 
