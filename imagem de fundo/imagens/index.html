@@ -6,21 +6,44 @@
     <title>Site com imagem de fundo</title>
 
     <style>
+
+        body {
+            background-image: url(wallpaper002.jpg);
+            backdrop-filter: cover;
+        }
+
         .quadrada {
+            display: inline-block;
             border: 1px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+            background-color: lightgray;
+        }
+
+        #Q1 {
+            background-color: #892be2dc;
+        }
+
+        #Q2 {
+            background-image: linear-gradient(to bottom, #0000ff, #00c3ffbe );
+        }
+
+        #Q3 {
+            background-image: url(pattern003.png);
         }
     </style>
 </head>
 <body>
-    <div class="quadrada">
+    <div class="quadrada" id="Q1">
 
     </div>
 
-    <div class="quadrada">
+    <div class="quadrada" id="Q2">
 
     </div>
 
-    <div class="quadrada">
+    <div class="quadrada" id="Q3">
 
     </div>
 
