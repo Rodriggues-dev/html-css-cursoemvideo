@@ -1,8 +1,18 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'cordelina';
+    src: url(fonts/cordelina.otf) format('opentype');
+}
+
 * {
     margin: 0;
     padding: 0;
+}
+
+:root {
+    --font-padrao:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-cordelina: 'cordelina', cursive;
 }
 
 html, body {
@@ -14,15 +24,22 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte-cordelina);
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 7vw;
 }
 
 header > p {
     padding-bottom: 50px;
+}
+
+main {
+    font-family: var(--fonte-cordelina);
+    font-size: 2.5vw;
 }
 
 div {
@@ -34,6 +51,7 @@ div {
 
 .comum {
     background-color: white;
+    font-family: var(--fonte-xilosa);
 }
 
 .imagem {
