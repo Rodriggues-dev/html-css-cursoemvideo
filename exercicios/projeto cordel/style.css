@@ -49,19 +49,37 @@ div {
     padding-left: 30px;
 }
 
+div > p {
+    padding-bottom: 2em;
+    padding-left: 1em;
+}
+
 .comum {
     background-color: white;
-    font-family: var(--fonte-xilosa);
 }
 
 .imagem {
     background-color: rgba(137, 43, 226, 0.329);
     color: white;
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.685);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
     width: 400px;
-    background-color: rgba(137, 43, 226, 0.192);
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 5px;
+}
+
+#img-1 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img-2 {
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
 }
 
 a {
